@@ -5,10 +5,9 @@ on:
 
     inputs:
       run_job:
+        description: "Run Specific Job"
         type: boolean
-        description: Run Specific Job
-        required: false
-      
+        required: false 
       custom_message:
         type: string
         description: Enter a custom message
